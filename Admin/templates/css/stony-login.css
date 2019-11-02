@@ -1,0 +1,56 @@
+body {
+    background-color: dimgray;
+}
+
+.main-block {
+    position: absolute;
+    left: 50%;
+    margin-left: -200px;
+    top: 50%;
+    margin-top: -100px;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: #f2f2f2;
+    width: 400px;
+    height: 200px;
+}
+
+.login-in-block {
+    margin-left: 20px;
+    left: 20px;
+    display: inline-block;
+}
+
+.login-in-block__text {
+    margin-top: 10px;
+    display: block;
+    font-family: Consolas, fantasy;
+    font-size: 25px;
+}
+
+.login-in-block__text-rep {
+    display: block;
+    font-family: "Comic Sans MS", fantasy;
+    font-size: 11px;
+}
+
+.label {
+    font-family: Bahnschrift, fantasy;
+}
+
+.input-text {
+    border-radius: 5px;
+    padding: 3px 5px;
+    width: 300px;
+    outline: none;
+}
+
+.button {
+    background-color: dimgray;
+    color: white;
+    border-radius: 5px;
+    padding: 3px 5px 3px 5px;
+    outline: none;
+    margin-top: 5px;
+    width: 120px;
+}

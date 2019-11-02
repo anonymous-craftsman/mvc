@@ -1,0 +1,194 @@
+body {
+    background-color: #bdbdbd;
+}
+.container {
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-header {
+    height: 50px;
+    background-color: #222223;
+}
+.icon {
+    width: 40px;
+}
+.admin-name {
+    display: inline-block;
+    margin-top: 5px;
+    padding-left: 30px;
+}
+.admin-name__text {
+    color: white;
+    display: inline-block;
+    font-family: "Comic Sans MS";
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: 20px;
+    vertical-align: 12px;
+}
+.left-menu {
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 25px;
+    background-color: white;
+    width: 15%;
+    height: auto;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+.user {
+    text-align: center;
+}
+.user-block {
+    display: inline-block;
+    margin-top: 10px;
+}
+.user-block > img {
+    width: 80px;
+    border-radius: 20px;
+}
+.user-name {
+    font-family: Bahnschrift;
+    width: 100%;
+}
+.menu-text > img {
+    width: 25px;
+}
+.menu-text__text {
+    font-size: 25px;
+    display: inline-block;
+    font-family: Consolas;
+    vertical-align: 5px;
+    padding-left: 10px;
+}
+.menu-text {
+    margin-left: 10px;
+}
+.menu {
+    list-style-type: none;
+    width: 95%;
+    border-bottom: 1px solid darkblue;
+}
+.menu a {
+    color: #222223;
+    font-size: 18px;
+    text-decoration: none;
+    /*background-color: #bdbdbd;*/
+    padding-left: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
+    border-top: 1px solid dimgray;
+    font-family: Consolas;
+}
+.menu a:hover {
+    background-color: rgba(0, 0, 0, 0.43);
+    color: white;
+}
+.nonemode {
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 30px;
+    color: #4d2622;
+}
+.content {
+    display: inline-block;
+    background-color: white;
+    width: auto;
+    height: auto;
+    margin-bottom: 30px;
+    vertical-align: top;
+    margin-top: 25px;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.heading-block__text {
+    font-size: 25px;
+    display: inline-block;
+    font-family: Consolas;
+    vertical-align: 5px;
+    padding-left: 10px;
+}
+.button {
+    font-size: 15px;
+    background-color: dimgray;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 5px 8px 5px;
+    outline: none;
+}
+.label {
+    font-size: 25px;
+    font-family: Consolas;
+}
+.input-text {
+    outline: none;
+    padding: 8px 5px;
+    border-radius: 5px;
+}
+.table-cat {
+    width: 100%;
+    font-family: Consolas;
+}
+.table-cat th {
+    height: 30px;
+    background-color: #bdbdbd;
+    font-size: 20px;
+}
+.table-cat td {
+    height: 20px;
+    vertical-align: bottom;
+}
+.table-cat th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+.table-cat tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.td-centr {
+    text-align: center;
+}
+.cat-img {
+    height: 40px;
+    /*border-radius: 50px;*/
+}
+.formDell {
+    text-align: center;
+}
+.formDell > img {
+    height: 120px;
+
+    /*border-radius: 50px;*/
+}
+.admin-setting {
+    margin-top: 7px;
+    margin-right: 20px;
+    float: right;
+    display: inline-block;
+}
+.admin-setting-img {
+    height: 35px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.admin-setting__text {
+    font-family: Consolas, fantasy;
+    display: inline-block;
+    color: white;
+    vertical-align: middle;
+}
+.admin-setting-exit {
+    vertical-align: middle;
+    height: 35px;
+}
+.content-info {
+    width:1200px;
+}
+.indent {
+    background-color: #4d2622;
+    opacity: 60%;
+}

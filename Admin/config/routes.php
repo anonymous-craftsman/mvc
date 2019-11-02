@@ -1,0 +1,24 @@
+<?php
+return array(
+    "admin/deleteTov/([0-9]+)"=>"tovar/deleteTov/$1",
+    "admin/delTov/([0-9+])"=>"tovar/delTov/$1",
+    "admin/redaguvCat/([0-9+])"=>"categoria/redaguvCat/$1",
+    "admin/redCat/([0-9]+)"=>"categoria/redCat/$1",
+    "admin/deleteCat/([0-9+])"=>"categoria/deleteCat/$1",
+    "admin/delCat/([0-9]+)"=>"categoria/dellCat/$1",
+    "admin/run_basket/([0-9]+)"=>"basket/runBasket/$1",
+    "admin/dell_basket/([0-9]+)"=>"basket/dellBasket/$1",
+    "admin/orderlist"=>"basket/orderList",
+    "admin/loginData"=>"login/loginData",
+    "admin/login"=>"login/login",
+    "admin/exit"=>"login/exit",
+    "admin/addUserData"=>"user/addUserData",
+    "admin/addUser"=>"user/addUser",
+    "admin/listTov"=>"tovar/listTov",
+    "admin/addTovData"=>"tovar/addTovData",
+    "admin/addTov"=>"tovar/addTov",
+    "admin/listCat"=>"categoria/listCat",
+    "admin/addCatData"=>"categoria/addCatData",
+    "admin/addCat"=>"categoria/addCat",
+    "admin"=>"user/index"
+);
